@@ -60,9 +60,10 @@ header{
 }
 
 nav a:hover {
-    background-color: #f0ac19;
+    background-image: linear-gradient(to bottom right,rgb(140, 136, 136),rgb(227, 218, 218));
     color: white;
     padding: 0 35px 0 35px;
+    border-radius: 15px;
 
 }
 
@@ -75,6 +76,7 @@ nav a:hover {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    text-decoration: underline;
 }
 
 .join{
@@ -141,7 +143,7 @@ footer a{
 }
 
 footer a:hover{
-    background-color: #f0ac19;
+    background-image: linear-gradient(to bottom right,rgb(140, 136, 136),rgb(227, 218, 218));
     color: white;
 }
 
