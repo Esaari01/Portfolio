@@ -258,6 +258,9 @@ nav{
     grid-column: 4/5;
     grid-row: 6/7;
 }
+.cert{
+    padding-top: 30px;
+}
 @media screen and (max-width: 900px){
     #hero, .home-grid{
         display: block;
