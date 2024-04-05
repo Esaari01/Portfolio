@@ -202,8 +202,22 @@ nav{
     transform: scale(1.1);
 }
 .home-grid{
+    grid-column-start:6;
+    grid-column-end: 9;
     display: grid;
     grid-template-columns: repeat(10, 1fr)
+}
+.trailIcon{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+.sfIcon{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 8;
 }
 #background{
     grid-column: 1/11;
