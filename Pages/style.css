@@ -285,10 +285,11 @@ nav{
     flex-direction: column;
 }
 .aboutp{
+    display: flex;
+    flex-direction: column;
     padding: 30px;
     padding-left: 400px;
     width: 50%;
-    -ms-flex-align: center;
     align-items: center;
 }
 @media screen and (max-width: 900px){
@@ -333,5 +334,19 @@ nav{
         width: 50%;
         -ms-flex-align: center;
         align-items: center;
+    }
+    .aboutbody{
+        display: flex;
+        -ms-flex-align: center;
+        flex-direction: column;
+    }
+    .aboutp{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        padding-left: 6em;
+        width: 50%;
+        align-items: center;
+        margin: -1.45em -1.5em -1.04em -1.04em;
     }
 }
