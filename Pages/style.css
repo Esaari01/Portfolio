@@ -322,4 +322,16 @@ nav{
     footer{
         margin-top: 25px;
     }
+    .aboutbody{
+        display: flex;
+        -ms-flex-align: center;
+        flex-direction: column;
+    }
+    .aboutp{
+        padding: 30px;
+        padding-left: 400px;
+        width: 50%;
+        -ms-flex-align: center;
+        align-items: center;
+    }
 }
