@@ -292,6 +292,60 @@ nav{
     width: 50%;
     align-items: center;
 }
+.projectbody{
+    height: 100%;
+    max-width: 1600px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.projecttitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 30px 80px 30px;
+    font-weight: bold;
+    font-size: 2em;
+}
+.projectmain{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 30px;
+    padding-right: 50rem;
+    padding-left: 30px;
+}
+.projectleft1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: left;
+    display: inline-block;
+}
+.projectleft2{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    text-align: left;
+}
+.projectleft3{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    text-align: left;
+}
+.projectleft4{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    text-align: left;
+}
 @media screen and (max-width: 900px){
     #hero, .home-grid{
         display: block;
