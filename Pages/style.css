@@ -187,12 +187,12 @@ footer .social img{
 .about-card{
     margin: 150px 0;
 }
-.card-img{
+/* .card-img{
     border: 10px solid #f0ac19;
     width: 100%;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #f0ac19;
-}
+} */
 main section img{
     box-sizing: border-box;
 }
@@ -344,9 +344,6 @@ nav{
     cursor: pointer;
     display: flex;
 }
-.projectleft1 :hover{
-    background-color: yellow;
-}
 .projectleft2{
     grid-column-start: 1;
     grid-column-end: 1;
@@ -440,6 +437,39 @@ nav{
     padding-left: 20px;
     padding-top: 20px;
     font-size: 18px;
+}
+.devOrglink{
+    text-decoration: none;
+    color: #030303;
+}
+.photobooth{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template: max-content;
+    max-width: 50%;
+    padding-left: 10rem;
+    text-align: center;
+    height: 20rem;
+    max-width: 35rem;
+}
+.maindashboard{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.warranties{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.devDescription{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20rem;
+    padding-right: 20rem;
 }
 @media screen and (max-width: 900px){
     #hero, .home-grid{
@@ -548,5 +578,22 @@ nav{
         text-align: left;
         font-weight: 550;
     }
+    .photobooth{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 2fr;
+        grid-template: max-content;
+    }
+    .maindashboard{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .warranties{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
 }
-
